@@ -1,0 +1,5 @@
+lst=list(map(int,input("Enter elements into the list:").split(",")))
+m=max(lst)
+lst.remove(m)
+maxi=max(lst)
+print(maxi)
